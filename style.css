@@ -1,0 +1,168 @@
+.vertical_line{
+    height: 100px;
+    border: 1px solid lightgray;
+}
+#search_bar{
+    width: 45%;
+    background-color: rgb(244,244,244);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#search_bar>input{
+    border: none;
+    width: 95%;
+    background-color: transparent;
+   
+}
+.my_cards{
+    width: 88%;
+    margin: auto;
+    overflow-x: scroll;
+}
+#categories_section{
+    width: 90%;
+    margin: auto;
+}
+.my_list{
+    white-space: nowrap; /*scrolable tha image in below class*/
+}
+.my_list>img{
+    display: inline-block;
+}
+.category_section{
+    width: 88%;
+    margin: auto;
+    overflow-x: scroll;
+}
+.my_card{
+    width: 200px;
+    display: inline-block !important;
+    margin-inline: 7PX;
+}
+.card_timer
+{
+    font-size: 9px;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    width: fit-content;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+.card_weight{
+    font-size: 10px;
+    color: #898989;
+}
+footer{
+    width: 88%;
+    margin: auto;
+}
+#footer_row1{
+    display: flex;
+    justify-content: center;
+    
+}
+.table1{
+    flex: 1;
+}
+.table2{
+    flex: 2;
+}
+table{
+    width: 100%;
+}
+td{
+    color: #828d9b;
+    padding-top: 10px;
+    font-size: 15px;
+}
+#footer_row2{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_row2>p{
+    width: 35%;
+    color: #828d9b;
+    font-size: 13px;
+}
+#footer_row3{
+    color: #828d9b;
+}
+#download_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #717171;
+    font-weight: 700;
+}
+#download_section>img{
+    width: 100px;
+
+}
+#social_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.social_icon{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+i{
+    width: 100%;
+}
+
+@media screen  and (max-width: 500px) {
+    #hero_section{
+        display: none !important;
+    }
+    .my_cards{
+        margin-top: 20px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .vertical_line{
+        display: none;
+    }
+    #searh_bar{
+        width: 100%;
+    }
+    #searh_bar>input{
+        width: 90%;
+    }
+    #table1,#table2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    td{
+        text-align: center;
+    }
+    #footer_row1{
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer_row2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #footer_row2>p{
+        width: 100%;
+    }
+    #social_links{
+        margin-top: 15px;
+    }
+    #footer_row3{
+        text-align: justify;
+    }
+    h2{
+        text-align: center;
+    }
+}
